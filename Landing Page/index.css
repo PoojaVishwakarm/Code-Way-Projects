@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+* {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  list-style: none;
+  font: inherit;
+   color: black ;
+   font-family:"Poppins", sans-serif; 
+   vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+img,
+data,
+span,
+input,
+button,
+select,
+textarea,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+
+}
+
+h1{
+  font-size: 2rem;
+} 
+
+h2{
+  font-size:2rem;
+}
+
+p{
+  font-size: 1.5rem;
+  /* line-height: 1.5rem; */
+}
+
+/* img {
+  width: 300%;
+  height: auto;
+} */
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  font-size: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  max-width: max-content;
+  padding:0.8rem 1rem;
+  background-color: black;
+  color: white;
+  transition: all .3s;
+  border: 1px solid gray;
+  border-radius: 5rem;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+body {
+  font-size: inherit;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+     top: 0;
+     z-index: 10;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(209, 87, 87);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+.navbar h1{
+  color: white;
+}
+.navbar>ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+  color: white;
+  margin:0 2rem;
+}
+
+.navbar ul li a{
+  color: white;
+}
+.btn{
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+    border-radius: 5rem;
+    padding: .5rem;
+    width: 20rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    background-color: rgb(202, 193, 193);
+    color:black;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 10rem;
+  padding: 0 5rem;
+  /* background-color: rgb(167, 167, 245); */
+}
+
+.plus{
+  margin-top: 2rem;
+}
+
+.plus,h2,p,h3,button{
+  margin-bottom: 1.5rem;
+}
+.plus h3{
+  text-decoration: underline;
+}
+.plus,p{
+  /* word-wrap: break-word;
+  overflow: hidden; */
+  margin-top: 1rem;
+}
+.image{
+  margin-right: 10rem;
+}
+.image>img{
+  width: 300%;
+  padding-right: 10rem;
+  border-radius: 50%;
+}
+
+.main h3{
+  text-align: center;
+  flex-wrap: wrap;
+font-size: 1.5rem;
+}
+.main-sub{
+  margin:1rem;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;  
+}
+.main-1 h3{
+  text-align: center;
+font-size: 1.5rem;
+}
+.main-1 h5{
+  text-align: center;
+  font-size: 1rem;
+}
+.jugad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+  padding: 1rem 2rem;
+}
+.jugad-list{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.jugad-list,.game,h4, h6{
+  display: flex;
+ align-items: center;
+ flex-direction: column;
+ text-align: center;
+  padding: 0.5rem;
+}
+.game{
+  width: 5rem;
+  height: 4rem;
+}
+aside{
+
+  background-color: rgba(16, 15, 15, 0.881);
+}
+.then h4{
+color: white;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 1rem;
+flex-wrap: wrap;
+}
+.sub-sit{
+  padding:2rem 6rem;
+  gap: 5rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+.sub-list h5{
+color: white;
+padding: 0.5rem;
+}
+.sub{
+  text-decoration: underline red ;
+  color: white;
+  font-weight:bold; 
+}
+footer{
+  padding: 4rem;
+  /* padding-right: 10rem; */
+  background: palegreen;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer-sub{
+ display: flex;
+ flex: 2;
+ justify-content: end;
+ /* align-items: center; */
+ gap: 2rem;
+}
+.hclass{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pclass{
+font-size: 1rem;
+}
+/* .h5class{
+  padding: .5rem;
+  text-align: center;
+} */
+.h5class:hover{
+  color: rgb(239, 17, 17);
+}
+
+.footer-main{
+  flex: 1;
+}
+.footer-sub div{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ 
+}
